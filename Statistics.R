@@ -26,6 +26,10 @@ var(mba$gmat)
 kurtosis(mba$gmat)
 skewness(mba$gmat)
 
-#
+# if modeled the  data using normal distribution 
+# find out the percentage in gmat score  lessthan 670
 
+mean(mba$gmat)
+sd(mba$gmat)
+pnorm(670, 711, 29)
 
